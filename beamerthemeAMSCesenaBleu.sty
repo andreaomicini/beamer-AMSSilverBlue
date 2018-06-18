@@ -39,16 +39,16 @@
 \setbeamercolor{bibliography entry title}{fg=frenchblue!90!black} 
 \setbeamercolor{bibliography entry location}{fg=frenchblue!50!black} 
 \setbeamercolor{bibliography entry note}{fg=frenchblue!75!black}  
+\setbeamertemplate{bibliography item}{\insertbiblabel}
 % Alma Logo
-\pgfdeclareimage[width=\paperwidth]{bg}{img/almacesena-background}
+\pgfdeclareimage[width=\paperwidth]{bg}{./res/img/almacesena-background}
 \setbeamertemplate{background}{\pgfuseimage{bg}}
 % new commands
 \newcommand{\ccite}[1]{{\textcolor{gray}{\scriptsize\cite{#1}}}}
 \newcommand{\cccite}[1]{{\textcolor{lightgray}{\scriptsize\cite{#1}}}}
 \newcommand{\uurl}[1]{{\textcolor{gray}{\scriptsize\url{#1}}}}
-\newcommand{\uuurl}[1]{{\textcolor{lightgray}{\scriptsize\url{#1}}}}
 \newcommand{\hhref}[2]{{\textcolor{gray}{\scriptsize\href{#1}{\texttt{\underline{#2}}}}}}
-\newcommand{\hhhref}[2]{{\textcolor{lightgray}{\scriptsize\href{#1}{\texttt{\underline{#2}}}}}}
+\newcommand{\uuurl}[1]{{\textcolor{lightgray}{\scriptsize\url{#1}}}}
 %\renewcommand{\emph}[1]{\textcolor{frenchblue!50!black}{\textit{#1}}}
 %\renewcommand{\alert}[1]{\textcolor{frenchblue!90!black}{#1}}
 
