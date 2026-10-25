@@ -13,3 +13,12 @@ submodule at the tag `cesena-1.0` — the first being `blockchain-woa2018minisch
 The theme loads its seal as `img/almacesena-background`, so a consumer links
 `img/almacesena-background.pdf` to `.style/almacesena-background.pdf`. The bibliography style of
 the time was LaTeX's own `apalike`, not `apalike-AMS`.
+
+Two tags, one per variant:
+
+- `cesena-1.0` — the style as Andrea had it, loading the seal from `img/`.
+- `cesena-1.0-ciatto` — Giovanni Ciatto's copy, used for his deck of 30 May 2018 (*A gentle
+  introduction to the Blockchain and Smart contracts*, Autonomous Systems course), the seed of
+  the tutorial: the seal from `./res/img/` (a consumer links `res/img/almacesena-background.pdf`
+  instead), numeric labels in the bibliography (`\insertbiblabel`), and `\hhref` without its
+  light twin `\hhhref`. The branch head carries this variant.
