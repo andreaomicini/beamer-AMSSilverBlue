@@ -1,5 +1,7 @@
 # beamer-AMSSilverBlue
 
+![AMSSilverBlue Beamer style logo](logo/amssilverblue-style-full.svg)
+
 > A simple Beamer-LaTeX style for presentations by Alma Mater Studiorum —
 > Università di Bologna, in the French Blue and the silver greys of the old
 > AMSCesenaBleu style, recovered
