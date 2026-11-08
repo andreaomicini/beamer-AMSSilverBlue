@@ -1,5 +1,10 @@
 # beamer-AMSSilverBlue
 
+> **Frozen since 2026-11-08.** This style is now the `AMSSilverBlue` preset of
+> [almamater](https://github.com/andreaomicini/beamer-almamater), the six AMS styles as one: a deck keeps `\usetheme{AMSSilverBlue}` and pins
+> `beamer-almamater` instead. Nothing here changes any more; the repository stays readable for the decks'
+> history that pins it. Its themes of the time are on almamater's [`history/silverblue`](https://github.com/andreaomicini/beamer-almamater/tree/history/silverblue) branch, the tags on the same commits.
+
 ![AMSSilverBlue Beamer style logo](logo/amssilverblue-style-full.svg)
 
 > A simple Beamer-LaTeX style for presentations by Alma Mater Studiorum —
